@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  html,body {
+    background: url("../images/batmanwp2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;   
+    -o-background-size: cover;     
+    background-size: cover;    
+}
+#banner {
+    background-image: url("../images/batman.jpg");
+    height: 60px;
+    border:solid;
+    border-width: 2px;
+    border-color: white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#mainTitle{
+    font-family: 'Bangers', cursive;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    font-size: 50px;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+#mainBody{
+    margin-top:40px;
+    background: rgb(250, 220, 220);
+    background: rgba(253, 225, 225, 0.8);
+}
+#start, #reset{
+    background-color: green;
+    border: green;
+}
+.bott {
+    background-image: url("../images/batman.jpg");
+    height:16px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    border-top: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+    clear: both;
+}
+#cpp {
+    color:white;
+    padding-top:3px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.answerOne,.answerTwo,.answerThree,.answerFour,.answerFive {
+    margin-top:30px;
+    padding:2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn {
+    font-size: 50px;
+    color: green;
+    background-color: green;
+
+}
+#answers{
+    text-align: center;
+}
+
+#questions{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top:40px;    
+    font-family: 'Cabin Sketch', cursive;
+}
+.question{
+    font-size: 75px;
+}
+.thisChoice{
+    margin-top: 10px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size:40px;
+}
+#message, #correctedAnswer{
+    margin-bottom:20px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+}
+
+#finalMessage, #correctAnswers, #incorrectAnswers, #unanswered {
+   font-family: 'Cormorant Unicase', serif;
+   font-size: 30px;
+   font:bold;
+}
+#startOver{
+    margin-top: 25px;
+}
+.thisChoice:hover { 
+    background-color: green;
+}
