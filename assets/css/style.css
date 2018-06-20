@@ -31,8 +31,8 @@
 
 #mainBody{
     margin-top:40px;
-    background: rgb(250, 220, 220);
-    background: rgba(253, 225, 225, 0.8);
+    background: rgb(218, 235, 252);
+    background: rgba(221, 227, 253, 0.8);
 }
 #start, #reset{
     background-color: green;
